@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Leonida Legend — GTA 6 Trophy Guide &amp; Tracker</title>
+<link rel="stylesheet" href="css/base.css">
+<link rel="stylesheet" href="css/theme.css">
+</head>
+<body>
+<header>
+<h1>Leonida Legend <span>— GTA 6 Trophy Guide</span></h1>
+<p class="sub">An offline guide and tracker for all 55 PlayStation 5 trophies of Grand Theft Auto VI. No account, no network — your progress stays in this browser. Guides are written from the official trophy descriptions and are not yet checked in-game; the game launched today.</p>
+<div class="progress">
+<span class="count" id="earned-count">0 / 55</span>
+<div class="bar"><i id="bar-fill"></i></div>
+<span class="count" id="pct">0%</span>
+</div>
+</header>
+<nav>
+<button data-view="checklist" class="active">Checklist</button>
+<button data-view="roadmap">Roadmap</button>
+<button data-view="missables">Missables</button>
+<button data-view="planner">Next up</button>
+<button data-view="settings">Settings &amp; save</button>
+</nav>
+<div class="toolbar">
+<input id="search" type="search" placeholder="Search trophies…" aria-label="Search trophies">
+<select id="kind" aria-label="Filter by kind"><option value="all">All kinds</option><option value="story">Story</option><option value="missable">Missable</option><option value="collectibles">Collectibles</option><option value="activities">Activities</option><option value="crime">Crime</option></select>
+<select id="grade" aria-label="Filter by grade"><option value="all">All grades</option><option value="platinum">Platinum</option><option value="gold">Gold</option><option value="silver">Silver</option><option value="bronze">Bronze</option></select>
+<select id="earned-filter" aria-label="Filter by earned"><option value="all">Earned &amp; unearned</option><option value="earned">Earned only</option><option value="unearned">Unearned only</option></select>
+<label><input type="checkbox" id="spoiler-toggle"> Spoiler protection</label>
+<button class="ghost" id="export-top">Export progress</button>
+<button class="ghost" id="import-top">Import progress</button>
+</div>
+<main>
+<div class="list" id="list"><p>Loading trophies…</p></div>
+<aside class="pane" id="pane"><h2>Guide</h2><p>Select a trophy to read its guide, steps and sources.</p></aside>
+</main>
+<footer>Sources for every trophy: Exophase and PSNProfiles, linked beside each guide. How-to text is own advice from the official description — not yet checked in-game. This is an unofficial fan guide; Grand Theft Auto is a trademark of its owner.</footer>
+<script type="module" src="js/main.js"></script>
+</body>
+</html>
